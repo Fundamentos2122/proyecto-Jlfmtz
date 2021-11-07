@@ -1,0 +1,279 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(../img/821075aa4dacc7b7f7da81e1058ece8c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 380px;
+    position: relative;
+}
+
+.header-portal {
+    background-image: url(../img/pexels-kun-fotografi-1230302.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.header-log {
+    background-image: url(../img/san-luis-potosi-caja-de-agua-1024x683.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.header-log:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
+}
+.header-sign {
+    background-image: url(../img/slp-nota-sierra-de-alvarez-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.slogan {
+    margin: 40px 0;
+    color: #fff;
+}
+
+.mapaslp img {
+    transform: rotate(12deg);
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.mapaslp{
+    display: none;
+}
+@media (min-width: 768px) {
+    .mapaslp {
+        display: block;
+    }
+}
+
+.titulos {
+    margin: 20px 0;
+    padding: 20px;
+    background-image: url(../img/divtenek.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulos h2 {
+    text-align: center;
+}
+
+.info-turismo{
+    margin-left: 5px;
+}
+
+.info-box{
+    position: relative;
+    padding: 150px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.info-turismo h3 {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    padding: 12px;
+    background-color: #fff;
+    text-align: center;
+    border-top-right-radius: 10px;
+}
+#aventura {
+    background-image: url(../img/Lugares-turisticos-en-San-Luis-Potosi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#cultura{
+    background-image: url(../img/san-luis-potosi-600x308.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#pueblos {
+    background-image: url(../img/cropped-Xilitla-ok-ok-.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.eventos  {
+    text-align: center;
+    margin-bottom: 80px;
+}
+#evento-1 {
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#evento-2 {
+    background-image: url(../img/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#evento-3 {
+    background-image: url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.eventos h4 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 12px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.zonas {
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.zonas p {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: #fff;
+}
+
+.info-rutas {
+    margin-bottom: 20px;
+}
+.img-ruta img{
+    border-radius: 5px;
+}
+.ruta{
+    text-align: justify;
+}
+@media (min-width: 768px) {
+    .ruta {
+        margin-top: 50px;
+    }
+}
+
+.info-municipio{
+    margin: 50px;
+}
+.img-municipio {
+    margin-bottom: 20px;
+}
+.form-log {
+    padding: 50px;
+    box-shadow: rgba(250, 230, 230, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    margin: auto;   
+}
+@media (min-width: 768px) {
+    .form-log {
+        position: absolute;
+        right: 25px;
+        top: 30px;
+        width: 40%;
+    }
+}
+.form-log input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.form-log a{
+    text-decoration: none;
+}
+.form-log h1 {
+    text-align: center;
+    color: #fff;
+}
+.form-footer {
+    text-align: center;
+}
+.form-footer a {
+    margin-top: 20px;
+    display: block;
+    color: #fff;
+}
+.buscador {
+    
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+@media (min-width:768px) {
+    .buscador{
+        width: 40%;
+    }
+}
+
+.buscador h1 {
+    text-align: center;
+}
+
+.buscador input {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}
+.btn-buscar {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.info-ab {
+    margin-bottom: 20px;
+}
+
+.mapa {
+    display: none;
+}
+@media (min-width: 768px) {
+    .mapa {
+        display: block;
+    }
+}
+
+
+
+footer {
+    background-color: #25418e;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.8em;
+    margin-bottom: 0;
+}
